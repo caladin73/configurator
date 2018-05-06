@@ -1,0 +1,162 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.contact{
+    padding-left: .3%;
+}
+
+.icon{
+    padding-left: 30%;
+    padding-right: 7%;
+}
+
+#footer{
+
+
+}
+
+#contact{
+    background-color: #212529;
+    color: #6c757d;
+    margin: 0;
+    width: auto;
+}
+
+#address_text{
+    padding-left: 1%;
+    width: auto;
+}
+
+#kafb{
+    
+    color: #6c757d;
+}
+
+#kafb:hover{
+    color: #f8f9fa;
+}
+
+#copyright{
+    width: auto;
+    margin: 0;
+    padding-top: .4%;
+    padding-bottom: .7%;    
+    background-color: #6c757d;    
+    color: #f8f9fa  ;
+}
+
+#copyright_a{
+    color: #f8f9fa;
+}
+
+#copyright_a:hover{
+    color: #212529;
+}
+
+.container-fluid{
+    padding: .3%;
+}
+
+#bout{
+    float: none;
+}
+
+.bout_txt{
+    padding-top: 5%;
+}
+/*   Use this to create margin left and right for the website   */
+@media (min-width: 993px) {
+
+  .outerWrapper {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+
+  .outerWrapper {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+}
+
+@media (max-width: 767px) {
+
+  .outerWrapper {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+}
+
+.hero img {
+    width:100%;
+}
+
+.hero-image-box {
+    max-height: 60%;
+    overflow: hidden;
+}
+
+.hero-left,
+.hero-right {
+  margin: 10px auto;
+}
+
+.hero-left {
+  margin-top: 5em;
+}
+
+.hero-left h2,
+.hero-left p {
+  margin: 20px 0px;
+}
+
+.hero-left button {
+  margin-top: 25px;
+}
+
+.mega-hero__splash {
+  background-color: #000;
+    border-radius: 50%;
+    color: #fff;
+    display: table-cell;
+    height: 90px;
+    left: 0px;
+    line-height: 1.2;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    width: 90px;
+}
+
+.middle-section img {
+    width:100%;
+}
+
+.middle-section a {
+  text-decoration: none;
+  color: black;
+}
+
+.middle-section a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.image-box {
+    max-height: 30%;
+    overflow: hidden;
+}

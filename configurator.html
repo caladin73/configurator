@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Configurator</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <link href="css/canvas.css" rel="stylesheet">
+    <script type="text/javascript" src="js/nQuery/nQuery.js"></script>
+    <script type="text/javascript" src="js/math/math.js"></script>
+</head>
+<body>
+
+
+    <div class="configurator-setup col-8 form-inline">
+      <div class="form-group col-4">
+        <label for="exampleInputLength1">Length in pixel:</label>
+        <input type="number" class="form-control" id="length" value="500">
+        <small id="lenghtHelp" class="form-text text-muted">10 pixel = 1 cm</small>
+      </div>
+      <div class="form-group col-4">
+        <label>Width in pixel:</label>
+        <input type="number" class="form-control" id="width" value="500">
+        <small id="lenghtHelp" class="form-text text-muted">10 pixel = 1 cm</small>
+      </div>
+      <div class="form-group mx-sm-3 mb-2">
+        <button class="btn btn-dark" onclick="create_floor()">Create Floor</button>
+      </div>
+    </div>
+
+    <br />
+    <div class="col-sm-11">
+        <p id="message" style="padding: 6px 12px; border-radius: 99px; border: 1px solid #ccc; display: none; color: white;"></p>
+    </div>
+    <br />
+
+    <div class="configurator-container row col-sm-11">
+        <div class="col-sm-10 text-center">
+            <canvas id="floor" width="500" height="500" style="outline: 1px solid magenta;"></canvas>
+        </div>
+        <div id="toolbox" class="col-sm-2 text-center row" style="outline: 1px solid magenta; padding: 10px;">
+
+        </div>
+    </div>
+
+
+    <div class="price">Total price is <strong>$<span id="total-price">0</span></strong></div>
+
+    <div class="save-form form-inline mx-sm-3 mb-2">
+      <div class="form-group mx-sm-3 mb-2">
+        <button id="save-btn" class="btn btn-lg btn-dark">Save</button>
+      </div>
+      <div class="form-group mx-sm-3 mb-2">
+        <button id="get-btn" class="btn btn-lg btn-dark">Get</button>
+      </div>
+        <div class="form-group mx-sm-3 mb-2">
+        <input id="data-id" class="form-control-lg" type="number" name="id" value="" />
+      </div>
+    </div>
+
+    <script type="text/javascript" src="js/creator/shapes.js"></script>
+    <script type="text/javascript" src="js/creator/events.js"></script>
+    <script type="text/javascript" src="js/creator/data-handler.js"></script>
+    <script type="text/javascript" src="js/creator/creator.js"></script>
+
+</body>
+</html>

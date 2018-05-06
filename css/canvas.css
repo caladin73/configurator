@@ -1,0 +1,13 @@
+.configurator-container {
+  border: solid 0.5px grey;
+  padding: 2rem;
+  margin: 1rem;
+}
+
+.price {
+  margin-left:2rem;
+}
+
+.save-form {
+  margin-top: 20px;
+}
